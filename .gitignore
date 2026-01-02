@@ -1,0 +1,32 @@
+# --- Virtual Environment (Wajib) ---
+venv/
+env/
+.env
+
+# --- Sampah Python (Otomatis) ---
+__pycache__/
+*.pyc
+
+# --- File Media (Supaya GitHub tidak keberatan) ---
+# Kita ignore semua video & audio
+*.mp4
+*.mp3
+*.wav
+*.mkv
+*.mov
+
+# KECUALI satu file contoh (Opsional, kalau mau upload contoh input kecil)
+# !test_video_kecil.mp4 
+
+# --- Sampah Editor (VS Code) ---
+.vscode/
+*.code-workspace
+
+# --- Sampah Windows ---
+Thumbs.db
+Desktop.ini
+
+# --- Folder Output Project Kita ---
+# Abaikan folder tempat menyimpan hasil generate
+temp_video/
+output_shorts/
