@@ -9,7 +9,7 @@ from moviepy.config import change_settings
 change_settings({"IMAGEMAGICK_BINARY": r"C:\Program Files\ImageMagick-7.1.2-Q16\magick.exe"})
 
 # --- KONFIGURASI PROYEK ---
-INPUT_VIDEO = "hasil_stabil_v3.mp4"   # Pastikan file ini ada di folder
+INPUT_VIDEO = "hasil_stabil.mp4"   # Pastikan file ini ada di folder
 OUTPUT_VIDEO = "video_final_viral.mp4"
 MODEL_TYPE = "small"                  # Model AI Whisper
 

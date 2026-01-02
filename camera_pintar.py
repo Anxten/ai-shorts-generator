@@ -4,7 +4,7 @@ import os
 
 # --- KONFIGURASI ---
 INPUT_VIDEO = "test_video.mp4"       # Pastikan nama file ini sesuai video baru Anda
-OUTPUT_VIDEO = "hasil_stabil_v3.mp4"
+OUTPUT_VIDEO = "hasil_stabil.mp4"
 
 # Load detektor wajah
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
